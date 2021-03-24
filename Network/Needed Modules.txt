@@ -1,7 +1,0 @@
--webbrowser
--googletrans
-
-how install?
-   - open cmd
-      - pip install webbrowser
-      - pip install googletrans
