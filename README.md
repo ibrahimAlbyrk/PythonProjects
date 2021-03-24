@@ -48,8 +48,8 @@
       - pip install smtplib
       - pip install email
       - pip install win10toast
-      - MessageBox module already exists
-      - tkinder module already exists
       - pip install pyautogui
       - pip install selenium
+      - MessageBox module already exists
+      - tkinder module already exists
       - time module already exists
