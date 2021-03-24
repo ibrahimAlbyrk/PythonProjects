@@ -23,7 +23,7 @@
 
 #Needed Modules
 
-**Modules
+**Modules**
 - webbrowser
 - googletrans
 - json
