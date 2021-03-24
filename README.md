@@ -21,7 +21,7 @@
     - can recognize human faces
     - if i'm not lazy will show the names of faces he has known recently
 
-*Needed Modules*
+###### Needed Modules
 
 **Modules**
 - webbrowser
