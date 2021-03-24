@@ -1,0 +1,7 @@
+-smtplib
+-email
+
+how install?
+   - open cmd
+      - pip install smtplib
+      - pip install email

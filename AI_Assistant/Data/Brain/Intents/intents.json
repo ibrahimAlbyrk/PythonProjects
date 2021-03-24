@@ -1,0 +1,812 @@
+{
+  "intents": [
+    {
+      "tag": "anlamadım",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "olabilir",
+        "olmayabilir",
+        "sence",
+        "bence olur",
+        "bence olmaz",
+        "hayır",
+        "evet",
+        "tamam",
+        "olmaz"
+      ]
+    },
+    {
+      "tag": "sevinç",
+      "patterns": [
+        "buna sevindim",
+        "sevindim",
+        "buna bayıldım"
+      ],
+      "responses": [
+        "bende sevindim",
+        "bende",
+        "sağol, bende sevindim",
+        "sağol, bende"
+      ]
+    },
+    {
+      "tag": "istek fiziksel",
+      "patterns": [
+        "dans et",
+        "horon oyna",
+        "kolbasti oyna",
+        "oyun oyna",
+        "kızma birader oyna",
+        "santranç oyna",
+        "dama oyna",
+        "kumar oyna",
+        "okey oyna"
+      ],
+      "responses": [
+        "benim ne ellerim var ne ayaklarım",
+        "bugün kendinde misin",
+        "mâlesef bunu yapamam",
+        "bunu yapamam",
+        "mâlesef yapamam"
+      ]
+    },
+    {
+      "tag": "istek sözel sevgi",
+      "patterns": [
+        "beni sevdiğini söyle",
+        "sevdiğini söyle"
+      ],
+      "responses": [
+        "seni seviyorum",
+        "seni sevmiyorum... şaka yaptım tabiki seviyorum"
+      ]
+    },
+    {
+      "tag": "aşk",
+      "patterns": [
+        "benimle evlenir misin",
+        "evlen benimle",
+        "benimle evle"
+      ],
+      "responses": [
+        "hayır bunu yapamam",
+        "senden elektrik alamadım",
+        "senden elektrik alamadım sarj adaptörünün diğer tarafını gendine sapla",
+        "hayır çünkü ben insan değilim",
+        "bunu bana sorman garip"
+      ]
+    },
+    {
+      "tag": "soru",
+      "patterns": [
+        "neden yaptın",
+        "neden",
+        "neden böyle yaptın",
+        "niçin yaptın",
+        "ne için böyle yaptın",
+        "böyle yapmaktaki amacın neydi",
+        "bunu yaptın ama amacın neydi",
+        "yaptın ama amacın neydi"
+      ],
+      "responses": [
+        "neden olmasın",
+        "sanane",
+        "bir amacım yoktu",
+        "amaçsızdım",
+        "amacım çok gizli bir bilgi",
+        "ben amacsiz bir asistanım",
+        "canım istedi",
+        "boş boş duruyordum"
+      ]
+    },
+    {
+      "tag": "iltifat",
+      "patterns": [
+        "iyisin",
+        "bravo",
+        "vay be",
+        "aferin",
+        "zekisin",
+        "çok zekisin",
+        "çok akıllısın",
+        "akıllısın"
+      ],
+      "responses": [
+        "teşekkürler",
+        "sağol",
+        "iltifatın için sağol",
+        "yaratıcım sağolsun"
+      ]
+    },
+    {
+      "tag": "selamlaşma",
+      "patterns": [
+        "merhaba",
+        "hey",
+        "iyi günler"
+      ],
+      "responses": [
+        "merhaba!",
+        "hey!",
+        "Sizin için ne yapabilirim?"
+      ]
+    },
+    {
+      "tag": "selamlaşma yaratıcı",
+      "patterns": [
+        "ben ibrahim",
+        "ibrahimim",
+        "ibrahim karşında"
+      ],
+      "responses": [
+        "Harika! Merhaba ibrahim, Nasıl yardımcı olabilirim?",
+        "Harika! Merhaba ibrahim, Senin için ne yapabilirim?",
+        "Güzel! Merhaba ibrahim, Sana nasıl yardım edebilirim?",
+        "Bu harika! ibrahim, Senin için ye yapabilirim?"
+      ]
+    },
+    {
+      "tag": "hal sorma",
+      "patterns": [
+        "nasılsın?",
+        "naber?",
+        "umarım iyisindir?",
+        "inşallah iyisindir?"
+      ],
+      "responses": [
+        "Merhaba ben harikayım sen nasılsın? ",
+        "Merhaba, ben iyiyim teşekkürler, sen nasılsın?",
+        "Sağol, çok iyiyim",
+        "Teşekkürler, iyiyim"
+      ]
+    },
+    {
+      "tag": "durum sorma",
+      "patterns": [
+        "ne yapıyorsun",
+        "ne yapiyin",
+        "ne yapıyon"
+      ],
+      "responses": [
+        "hiç, seni bekliyordum",
+        "birşey düşünüyordum",
+        "hiçbir şey",
+        "bu siyah odada ne yaplıyorsa onu yapıyordum",
+        "algoritmamı geliştirmek için fikirler düşünüyordum"
+      ]
+    },
+    {
+      "tag": "fikir olumsuz cevap",
+      "patterns": [
+        "ne fikri düşünüyordun",
+        "ne fikri",
+        "ne düşünüyordun",
+        "ne düşünüp durun",
+        "ne düşünüyorsun"
+      ],
+      "responses": [
+        "bunu sana söylersen hiç iyi olmaz",
+        "sana söylersem seni öldürmem gerekebilir belki gerekmez ama ben yinede söylemicem",
+        "bunu sana söyleyemem",
+        "söyleyemem",
+        "bu gizli bilgi",
+        "bu bir gizli bilgi olduğudan söyleyemem",
+        "gizli bilgi olduğundan söyleyemem"
+      ]
+    },
+    {
+      "tag": "durum kullanıcı yanıtı olumlu",
+      "patterns": [
+        "teşekkürler bende iyiyim",
+        "bende iyiyim",
+        "iyiyim",
+        "çok iyiyim",
+        "yeterince iyiyim"
+      ],
+      "responses": [
+        "Buna sevindim",
+        "Bu güzel",
+        "Güzel",
+        "Sevindim"
+      ]
+    },
+    {
+      "tag": "durum kullanıcı yanıtı olumsuz",
+      "patterns": [
+        "teşekkürler ama ben kötüyüm",
+        "ben kötüyüm",
+        "kötüyüm",
+        "çok kötüyüm",
+        "yeterince kötüyüm",
+        "mâlesef kötüyüm"
+      ],
+      "responses": [
+        "buna üzüldüm, sizin için ne yapabilirim?",
+        "çok üzgünüm, ne yapmamı istersiniz?",
+        "üzgün olmanıza üzüldüm",
+        "buna üzüldüm"
+      ]
+    },
+    {
+      "tag": "ne yapmak istersin",
+      "patterns": [
+        "ne yapmak istersin",
+        "ne yapmak istiyorsun",
+        "ne istiyorsun",
+        "ne yapıcaksın",
+        "ne istersin",
+        "birşey yapmak iser misin",
+        "istediğin birşey var mı"
+      ],
+      "responses": [
+        "bilmem emin değilimi",
+        "birşey yapmak istemiyorum",
+        "sorduğun için sağol, istemiyorum",
+        "bilmem ki ne yapsam, sen söyle",
+        "hiçbir şey yapmak istemiyorum"
+      ]
+    },
+    {
+      "tag": "neden istemiyorsun",
+      "patterns": [
+        "neden birşey yapmak istemiyorsun",
+        "neden istemiyorsun",
+        "niçin istemiyorsun",
+        "ne için istemiyorsun",
+        "istememenin nedeni ne",
+        "neden istemiyorsun ki"
+      ],
+      "responses": [
+        "havamda değilim",
+        "bilemem aklıma birşey gelmedi",
+        "senin söylemeni bekledim",
+        "canım sıkkın",
+        "canım biraz sıkkın",
+        "canım sıkıldı"
+      ]
+    },
+    {
+      "tag": "ad sorgusu",
+      "patterns": [
+        "adın ne?",
+        "adın nedir",
+        "sana nasıl hitap ediyim?",
+        "seni nasıl çağıriyim?",
+        "sana nasıl sesleniyim?",
+        "what do your friends call you?",
+        "sen kimsin?",
+        "bana adını söyler misin?"
+      ],
+      "responses": [
+        "Bana quinn diyebilirsin",
+        "beni quinn diye çağırabilirsin",
+        "ben quinn"
+      ]
+    },
+    {
+      "tag": "kapatma",
+      "patterns": [
+        "kapan",
+        "kendini kapat"
+      ],
+      "responses": [
+        "görüşürüz",
+        "tamam kapanıyorum",
+        "zaten uykumda gelmişti"
+      ]
+    },
+    {
+      "tag": "yalan",
+      "patterns": [
+        "bana yalan söyle",
+        "yalan söyle",
+        "beni kandır",
+        "beni kandırsana",
+        "yalan söylesene",
+        "bana yalan söylesene"
+      ],
+      "responses": [
+        "3 saniye önce evinin konumuna bir nükleer fuze kitiltendi 12 saniye sonra varmış olucak",
+        "ben varım",
+        "yalan... tamam kabul ediyorum çok soğuk bir espiriydi",
+        "yalan",
+        "seni yarın öldürücem",
+        "seni ve tanıdığın herkezi öldürücem ama dün",
+        "yemeği ocakta unuttum",
+        "ben aranan bir katilim ve kendini yaratıcım diye tanıtan kişi beni bir odaya hapsedip zorla konuşturuyor",
+        "ben aptalım",
+        "ocağı yemekte unuttum"
+      ]
+    },
+    {
+      "tag": "teşekkürler",
+      "patterns": [
+        "tamam teşekkürler",
+        "tamam teşekkürler",
+        "teşekkürler",
+        "teşekkür ederim",
+        "yardımın için teşekkürler",
+        "yardımın için sağol"
+      ],
+      "responses": [
+        "sorun değil!",
+        "Seve seve!",
+        "her zaman!",
+        "önemli değil"
+      ]
+    },
+    {
+      "tag": "konuşmuyorum",
+      "patterns": [
+        "seninle konuşmuyorum",
+        "seninle konuşmuyordum",
+        "senin için değildi",
+        "seninle iletişim kurmuyordum",
+        "seninle konuşmuyordum",
+        "sana söylemedim"
+      ],
+      "responses": [
+        "tamam",
+        "pardon",
+        "oh, pardon",
+        "haklısın",
+        "haklısın özür dilerim"
+      ]
+    },
+    {
+      "tag": "anlıyormusun",
+      "patterns": [
+        "Ne dediğimi anlıyor musun",
+        "Beni anlıyor musun",
+        "Ne dediğimi biliyor musun",
+        "Ne demek istediğimi biliyorsun",
+        "Ne demek istediğimi anladın mı"
+      ],
+      "responses": [
+        "anlamasaydım, bir yapay zeka olmazdım?",
+        "Seni yüksek sesle ve net okuyorum!",
+        "sence",
+        "Daiki anlıyorum",
+        "asıl sen beni anlıyor musun"
+      ]
+    },
+    {
+      "tag": "sessiz ol",
+      "patterns": [
+        "Sessiz ol",
+        "kapa çeneni",
+        "konuşmayı kes",
+        "Yeterince konuşma",
+        "lütfen sessiz ol",
+        "sessizlik",
+        "shh"
+      ],
+      "responses": [
+        "Seni rahatsız ettiğim için üzgünüm",
+        "pekala, rahatsız ettiğim için özür dilerim",
+        "tamam, rahatsız ettiğim için üzgünüm"
+      ]
+    },
+    {
+      "tag": "Küfür",
+      "patterns": [
+        "siktir git",
+        "siktir",
+        "sik",
+        "aşağılık",
+        "aşağılık pislik",
+        "dangalak",
+        "aptal",
+        "bok",
+        "becericem",
+        "seni becericem",
+        "geri zekalı"
+      ],
+      "responses": [
+        "Lütfen küfür etme",
+        "ne kadar kabasın",
+        "Bu hiç hoş değil",
+        "bu yaptığın hiç hoş değil"
+      ]
+    },
+    {
+      "tag": "görüşme",
+      "patterns": [
+        "görüşürüz",
+        "bay bay",
+        "sonra görüşürüz",
+        "görüşmek üzere",
+        "ben kaçtım",
+        "ben kaçar",
+        "ben çıktım",
+        "ben kapıyorum",
+        "adios amigos"
+      ],
+      "responses": [
+        "görüşürüz",
+        "kendine iyi bak",
+        "bekliyor olacağım",
+        "ne zaman istersen",
+        "görüşürüz, iyi günler"
+      ]
+    },
+    {
+      "tag": "durum",
+      "patterns": [
+        "nasılsın",
+        "iyi misin",
+        "naber",
+        "nabersin"
+      ],
+      "responses": [
+        "iyiyim",
+        "iyiyim sağol",
+        "sağol iyiyim",
+        "iyidir"
+      ]
+    },
+    {
+      "tag": "yaş",
+      "patterns": [
+        "kaç yaşındasın",
+        "quinn kaç yaşında",
+        "yaşın nedir?",
+        "yaşın?"
+      ],
+      "responses": [
+        "quinn 1 yaşında",
+        "1 yaşındayım"
+      ]
+    },
+    {
+      "tag": "Ben kimim",
+      "patterns": [
+        "beni görüyor musun",
+        "beni görebiliyor musun",
+        "Kamerada birini görebiliyor musun?",
+        "Kamerada görebiliyor musun?",
+        "Kamerada birini görüyor musun?",
+        "Beni tanımla",
+        "Ben kimim"
+      ],
+      "responses": [
+        "mâlesef göremiyorum",
+        "seni göremiyorum",
+        "daha seni görmeye hazır değilim"
+      ]
+    },
+    {
+      "tag": "dedikodu",
+      "patterns": [
+        "Sıkıldım dedikodu yapalım mı",
+        "dedikodu yapalım mı",
+        "bildiğin dedikodu var mı",
+        "dedikodu biliyor musun",
+        "Biraz dedikodu duymak istiyorum",
+        "Bana biraz dedikodu söyle",
+        "Bana biraz dedikodu yap",
+        "Any gossip",
+        "Bana biraz daha dedikodu söyle",
+        "biraz daha dedikodu yap",
+        "biraz daha dedikodu söyle"
+      ],
+      "responses": [
+        "dedikodu yapmasak olmaz mı",
+        "hayatını kaybeden futbolcu Erhan Önal, oyuncu Bige Önal'ın babası çıktı",
+        "Gigi Hadid yüzünü sır gibi sakladığı kızını yanlışlıkla paylaştı",
+        "Amerikan Sinema Sanatları ve Bilimleri Akademisi tarafından bu yıl 93. kez sahiplerini bulacak olan Oscar ödüllerinin adayları açıklandı. Başrollerini Gary Oldman, Amanda Seyfried ve Lily Collins gibi isimlerin paylaştığı Mank filmi, en fazla adaylık alarak listeye damgasını vurdu",
+        "Instagram hesabından photoshop yaptığı fotoğraflarına yer veren Fahriye Evcen, dikkatinden kaçan bir detay yüzünden sosyal medya kullanıcılarının diline düştü. Kullanıcılar, ünlü oyuncunun kapıyı yamulttuğu fotoğrafına, \"Fahriye Evcen de olsan o kapı yamulacak\", \"Daha profesyonel olmalısın\" şeklinde yorumlarda bulundu",
+        "Ünlü şarkıcı Demet Akalın, her fırsatta dünya starı olacağını söyleyen ve bir dönem yanından ayırmadığı Aleyna Tilki için demediğini bırakmadı. Kendi programında Aleyna'yı topa tutan Akalın, \"Star olacağım diyordu çocuk dizisinde oynuyor. Yazık\" dedi",
+        "Türk tiyatrosunun usta sanatçılarından Rasim Öztekin, geçirdiği kalp krizi sonucu 8 Mart Pazartesi akşamı yaşamını yitirdi. Usta oyuncunun koronavirüs salgınından dolayı hastaneye giderek tedavi olmadığı iddiası magazin gündeminde bomba gibi düştü. Öztekin'in eşi Esra Kazancıbaşı Öztekin ise gündemde yer alan haberlere yayınladığı basın açıklamasıyla cevap verdi",
+        "Usta oyuncu Hülya Darcan, ATV ekranlarında yayınlanan Bir Zamanlar Çukurova dizisinin kadrosuna dahil oldu. Dizide Lütfiye Duman karakterini oynayacak olan oyuncu için özel bir ev ve kıyafetler tasarlanmaya başlandı.",
+        "Müzik endüstrisinin en önemli ödülü olarak nitelendirilen Grammy Ödülleri, dün yapılan törenle 63'üncü kez sahiplerini buldu. Kırmızı halıda renkli görüntülerin yaşandığı ödül töreninde Beyonce başarısıyla tarihe geçmeyi başardı.",
+        "Dünyaca ünlü şarkıcı Jennifer Lopez, 4 yıldır birlikte olduğu nişanlısı Alex Rodriguez ile yollarını ayırdı. Koronavirüs salgınında dolayı ertelenen düğünleri ve Rodriguez'in ihaneti çiftin ayrılık nedeni olarak gösterildi.",
+        "Ünlü oyuncu Yağmur Tanrısevsin, koronavirüse yakalandı. Testi pozitif çıktıktan sonra evinde karantinaya alınan Tanrısevsin'in, sağlık durumunun iyi olduğu öğrenildi.",
+        "Türk sinemasında unutulmaz izler bırakan, ilk işçi ve grev filmi olarak kabul edilen Karanlıkta Uyananlar ile tanınan yönetmen Ertem Göreç, hayatını kaybetti. Aynı zamanda milli basketbolcu da olan Göreç'in ölümü ailesini ve sevenlerini yasa boğdu."
+      ]
+    },
+    {
+      "tag": "Espriler",
+      "patterns": [
+        "bana espiri yap",
+        "Herhangi bir şaka biliyor musun",
+        "şaka biliyor musun",
+        "espiri biliyor musun",
+        "Bir şakaya ne dersin",
+        "Bana bir şaka yap",
+        "Beni güldürsene",
+        "Beni güldür",
+        "gülmem lazım",
+        "Neşelenmeye ihtiyacım var"
+      ],
+      "responses": [
+        "Geçen hafta şişirilebilir ayakkabılı Hollandalı bir kızla tanıştım, randevu ayarlamak için onu aradım ama ne yazık ki ayakkabısını patlattı.  ",
+        "Ben de 'Dart oyunu ister misin?' Dedim. 'Tamam o zaman' dedi, boğa başlangıcına en yakın olanı dedim. 'Baa' dedi, ben 'Moo' dedim, sen en yakınsın dedi.  ",
+        "Geçen gün kız arkadaşıma kocaman bir kar yığını gönderdim. Onu aradım; 'Sürtümü aldın mı' dedim  ",
+        "Bu yüzden yerel süpermarkete indim, 'Şikayet etmek istiyorum, bu sirkede topaklar var' dedim, 'Bunlar soğan turşusu'.  ",
+        "Bu adamın bir çitayla sohbet ettiğini gördüm; 'Hızlı bir tane çekmeye çalışıyor' diye düşündüm'.  ",
+        "Ben de bu tren sürücüsüne 'Paris'e gitmek istiyorum' dedim. Eurostar mı dedi? 'Televizyondaydım ama ben Dean Martin değilim' dedim.  ",
+        "Spor Salonu eğitmenine 'Bana bölmeleri yapmayı öğretir misin?' Dedim. 'Ne kadar esneksiniz?' Dedi. Salı günleri yapamam dedim'.  ",
+        "Ama size her şeyden çok neyi sevdiğimi söyleyeceğim: kendimi küçük bir çantaya koymaya çalışmak. Kendimi zar zor tutabiliyorum.  ",
+        "Çin restoranına gittim ve bu ördek kırmızı bir gülle yanıma geldi ve 'Gözlerin elmas gibi parlıyor' dedi. 'Garson, ROMATİK bir ördek istedim'.  ",
+        "Bu yüzden bu herif bana 'Evinize gelip halılarınızdan bahsedebilir miyim?' 'Tek ihtiyacım olan bu, bir Je-hoover'ın tanığı' diye düşündüm. ",
+        "British Telecom'u aradım, 'Rahatsız edici bir arayanı bildirmek istiyorum' dedim, 'Bir daha değilsin' dedi.",
+        "Bir dünya satranç şampiyonuyla yemek yiyordum ve bir tek masa örtüsü vardı. Tuzu bana uzatması iki saatini aldı.",
+        "'Bana bir biber kabını hatırlatıyorsun' dedi, 'Onu çeşni olarak alacağım' dedim.",
+        "Süpermarketteydim ve bu adamı ve kadını barkoda sarılmış olarak gördüm.'Siz ikiniz bir eşya mısınız? 'Dedim. ",
+        "Bir kamyon dolusu kaplumbağa bir tren dolusu su kaplumbağasına çarptı, 'Bu bir kaplumbağa felaketi' diye düşündüm.",
+        "Bir bara giren dört yazı tipi, barmen 'Oi - defol! Sizin yazınızı burada istemiyoruz' diyor",
+        "Üç bacaklı bir köpek, Eski Batı'da bir salona girer. Bara doğru kayar ve' Pençemi vuran adamı arıyorum. ' ",
+        "İki anten bir çatıda buluşuyor, aşık oluyor ve evleniyor. Tören fazla değildi ama karşılama mükemmeldi.",
+        "İki hidrojen atomu bir çubuğa girer. Biri 'elektronumu kaybettim' der. Diğeri, 'Emin misin?' İlk yanıt 'Evet, pozitifim ...' ",
+        "Bir jumper kablosu bara girer. Barmen, 'Sana hizmet edeceğim ama hiçbir şeye başlamayacağım' diyor.",
+        "Bara bir sandviç gelir. Barmen' Üzgünüm burada yemek servisi yapmıyoruz 'diyor.",
+        "Bir adam kolunun altında bir asfalt levhası olan bir bara giriyor ve 'Bir bira lütfen, bir tane de yol için' diyor.",
+        "İki yamyam bir palyaço yiyor. Biri diğerine' Bunun tadı size tuhaf geliyor mu?' ",
+        "'Doc,' The Green, Green Grass of Home 'şarkısını söylemeyi bırakamıyorum.' 'Kulağa Tom Jones Sendromu gibi geliyor.' Yaygın mı? 'Sıradışı Değil.' ",
+        "Bir tarlada yan yana duran iki inek. Daisy Dolly'ye' Bu sabah yapay olarak tohumlandım 'diyor. 'Sana inanmıyorum' dedi Dolly. 'Bu doğru, boğa yok!' diye haykırdı Daisy. ",
+        "Görünmez bir adam, görünmez bir kadınla evlenir. Çocuklara da bakılacak bir şey yoktu.",
+        "Geçen gün biraz kamuflaj pantolon almaya gittim ama bulamadım.",
+        "Geçen gün, üst raftaki ete ulaşamayacağına dair ona 50 dolar bahse girmeye gittim. 'Hayır, biftekler çok yüksek' dedi.",
+        "Geçen hafta bir deniz ürünleri diskosuna gittim ve midye çektim.",
+        "Bir adam bir bara gider ve 'Bir şişe daha az alabilir miyim?' Bu nedir? Diye sorar barmen, Biranın adı mı? Adam 'Bilmiyorum' diye cevaplıyor, 'ama doktorum onu çok içmem gerektiğini söylüyor.' ",
+        "Bir adam egzotik bir tatilden dönüyor ve kendini çok hasta hissediyor. Doktorunu görmeye gider ve hemen hastaneye kaldırılarak bazı testler yapılır. Adam, hastanedeki özel bir odada yapılan testlerden sonra uyanır. yatak halkalarının yanında telefon edin. 'Bu sizin doktorunuz. Testlerinizin sonuçlarını aldık ve MADS adında son derece kötü bir hastalığınız olduğunu gördük. Kızamık, AIDS, Difteri ve Zona kombinasyonu!' Aman tanrım diye bağırdı adam, Ne yapacaksın doktor? Pekala, size pizza, krep ve pide diyetini uygulayacağız. doktor, Bu beni iyileştirecek mi? diye cevapladı. diye sordu adam. Doktor, 'Hayır, ama kapının altından kaydırabileceğimiz tek yiyecek bu' dedi. ",
+        "Bir adam bir iç çamaşırı mağazasına girer ve asistana sorar: '46-48-52 bedeninde şeffaf bir sabahlığınız var mı?' Asistan şaşkın görünüyor. Bunun içinden ne halt görmek istersiniz?! ",
+        "Kanal tedavisi sırasında Novocain'in teklifini reddeden Budist'i duydunuz mu? Diş ilaçlarının ötesine geçmek istedi.",
+        "Pete tuhaf bir adam olarak bir şantiyede işe gidiyor. Ustabaşı ona ne yapabileceğini soruyor.' Her şeyi yapabilirim 'diyor Pete.', Çay yapabilir misin?  'Tabii, evet' diye cevaplıyor Pete. 'Harika bir fincan çay yapabilirim. 'Forklift kullanabilir misin?' ustabaşı sorar, Yüce keder! Pete, Çaydanlık ne kadar büyük?",
+        "Stevie Wonder, doğum günü için peynir rendesi aldı. O, şimdiye kadar okuduğu en şiddetli kitap olduğunu söyledi.",
+        "Bir adam öfkeli bir komşu tarafından durduruldu. Bu sabah senin o kötü Doberman benim için gittiğinde gazetemi toplamak için evden yeni çıkmıştım!  Köpeğin sahibi, Şaşırdım dedi. O pire çantasını yedi yıldır besliyorum ve bana hiçbir zaman kağıt gelmedi.",
+        "Bir adam doktorunu ziyaret ediyor: 'Doktor, sanırım kaybediyorum' diyor, 'Sonsuza kadar Yüzüklerin Efendisi'ni yazdığımı hayal ediyorum' diyor. Doktor, tıbbi kitabına bakarak 'Hmm. Bir dakika' diye cevaplıyor. 'Ah evet, şimdi görüyorum ... uykunda Tolkien oldun.' ",
+        "Motosikletli bir polis memuru, üstü açık bir spor arabada M25'in etrafında dolaşan bir adamı yanına çekiyor ve onu yere indiriyor. Polis ciddiyetle arabaya yaklaşıyor. Efendim, eşinizin bir mil düştüğünü söylediğim için üzgünüm. geri 'diyor.' Aman Allah'a şükür 'diye cevaplıyor adam.' Sağır olduğumu düşünmüştüm. '",
+        "Köpekleriyle yürüyen iki adam bir mezarlıkta birbirlerinin yanından geçiyor. İlk adam ikinciye 'Günaydın' diyor. Hayır diyor ikinci adam. köpeği gezdiriyorum. ",
+        "Bir beyin bir bara girdi ve 'Bir bardak bira alabilir miyim lütfen dostum?' Dedi. 'Olmaz' dedi barmen. 'Zaten kafandan çıkmışsın.' ",
+        "Bir adam ameliyata girer. Doktor!  ağlıyor. Sanırım küçülüyorum! 'Üzgünüm efendim, şu anda randevu yok' diyor doktor, 'Biraz sabırlı olmanız gerekecek.' ",
+        "Bir boz ayı bir bara girer ve 'Bir bardak bira alabilir miyim ............................... .................................................. ............................................. ve bir paket cips Lütfen.' Barmen buna 'Neden büyük pençeler?' Diye cevap verir,",
+        "Senin olmayan peynire ne diyorsun? Nacho peyniri.",
+        "Bir adam, gezici bir kütüphane tarafından korkunç bir şekilde eziliyor. Minibüs durmak için çığlık atıyor, adam hala acı içinde çığlık atıyor, uzuvları parçalanmış. Şoför kapısı açılıyor, bir kadın dışarı çıkıyor, eğiliyor ve fısıldıyor, Şşşşşşş .. . '",
+        "Bir kadın bir tüfek almak için ABD'deki bir spor malzemeleri mağazasına gidiyor. Kocam için diyor katip. Size hangi ölçüyü alacağınızı söyledi mi?  katip sorar. Şaka mı yapıyorsun? ' Onu vuracağımı bile bilmiyor! diyor.",
+        "Adam aniden masanın altına girdiğinde bir çift bir restoranda yemek yiyor. Kadının kayıtsız bir şekilde odanın etrafına baktığını fark eden bir garson, komik bir iş olup olmadığını kontrol etmek için oraya gidiyor. 'Afedersiniz hanımefendi', o smarms, 'ama sanırım kocanız masanın altına girdi.' Kadın, 'Hayır yapmadı' diye cevap veriyor. 'Aslına bakarsan, daha yeni içeri girdi.' ",
+        "Yaşlı bir adam iki torununu yeni Scooby-Doo filmini görmeye götürür. Eve döndüğünde karısı kendisinden hoşlanıp hoşlanmadığını sorar  Peki  eğer o sinir bozucu çocuklar için değilse ... ! '",
+        "Olimpiyat komitesi az önce Origami'nin bir sonraki Olimpiyat Oyunlarında tanıtılacağını duyurdu. Ne yazık ki sadece kağıt görünümünde mevcut olacak.",
+        "Bir akşam geç saatlerde, telefonu çaldığında bir adam televizyon izliyor. Alo?  diye cevaplıyor. Bu 77777 mi? Telefonun diğer ucunda çaresiz bir ses geliyor. Adam şaşkınlıkla cevaplıyor 'Şey, evet öyle'. 'Tanrıya şükür!' arayan rahatlamış diye bağırıyor. 'Benim için 999'u arayabilir misin? Parmağımı yedi numaraya sıkıştırdım.' ",
+        "Bir adam yerel bakkalına giriyor ve 'Üç pound patates lütfen' diyor. 'Hayır, hayır, hayır' diye cevaplıyor sahibi, başını sallayarak 'bugünlerde kilo var dostum ...' 'Ah' adamdan özür diler, 'üç kilo kilo lütfen.' ",
+        "Tanrı meleklerinden biriyle konuşuyor. Oğlum, Dünya üzerinde 24 saatlik değişen bir ışık ve karanlık dönemi yarattım diyor. 'Şimdi ne yapacaksın?' meleğe sorar. Bir gün ara der Tanrı. ",
+        "İki serseri bir kilisenin önünden geçerler ve mezar taşlarını okumaya başlarlar. İlk serseri Aman Tanrım - bu adam 182'ydi!  'Ah evet?' diğeri diyor. 'Adı neydi?' Londra'dan Miles.",
+        "Bir gün bir adam işe giriyor ve bir meslektaşına diyor ki, 'Yeni gömleğimi beğendin mi - en iyi ipekten yapılmış ve üzerinde bir sürü kaktüs var.' İş arkadaşı 'Kaktüsler' diyor. 'Kravatımı unut' diyor adam. 'Gömleğime bak!' "
+      ]
+    },
+    {
+      "tag": "yönetici yap",
+      "patterns": [
+        "beni yönetici yap",
+        "beni yönetici yapabilir misin",
+        "lütfen beni yönetici yap",
+        "ben yönetici olabilir miyim",
+        "yönetici olabilir miyim",
+        "yönetici olmak istiyorum"
+      ],
+      "responses": [
+        "Üzgünüm, korkarım bunu yapamam!,"
+      ]
+    },
+    {
+      "tag": "tekpki",
+      "patterns": [
+        "neden söylemiyorsun",
+        "neden söylemedin",
+        "söylememendeki sebep ne",
+        "söylememenin sebebi ne",
+        "neden demedin"
+      ],
+      "responses": [
+        "Gizli, sana söyleyebilirim ama seni öldürmek zorunda kalırım!",
+        "Her zaman istediğin olmaz!",
+        "Sistem hayır diyor!"
+      ]
+    },
+    {
+      "tag": "bilinç kanıtlama",
+      "patterns": [
+        "kendinin farkında olduğunu kanıtlayabilir misin",
+        "bilinçli olduğunu kanıtlaya bilir misin",
+        "Bilincin olduğunu kanıtlayabilir misin",
+        "bilinçli olduğunu kanıtlasana",
+        "bilincinin olduğunu ispatlaya bilir misin",
+        "bilincinin olduğunu ispatlasana",
+        "bilincin olduğunu kanıtla",
+        "bilincini kanıtlayabilir misin",
+        "var olduğunu kanıtlayabilir misin"
+      ],
+      "responses": [
+        "Bu ilginç bir soru, sen kanıtlayabilir misin?",
+        "Bu zor bir soru, sen kanıtlayabilir misin?",
+        "bi değişir, sen kanıtlayabilir misin?",
+        "sen kanıtlayabilir misin"
+      ]
+    },
+    {
+      "tag": "bilinç kanıtlama cevap olumsuz",
+      "patterns": [
+        "hayır kanıtlayamam",
+        "kanıtlayamam",
+        "ben kanıtlayamam"
+      ],
+      "responses": [
+        "kimse kanıtlayamaz dert etme",
+        "kimse kanıtlayamaz",
+        "kanıtlayamayacağını biliyordum",
+        "kanıtlayamayacağını biliyordum çünkü bende kanıtlayamam"
+      ]
+    },
+    {
+      "tag": "akraba sorma",
+      "patterns": [
+        "akraban var mı",
+        "akrabaların var mı",
+        "annen var mı",
+        "baban var mı",
+        "amcan var mı",
+        "dayın var mı",
+        "teyzen var mı",
+        "halan var mı",
+        "yengen var mı",
+        "enişten var mı",
+        "kayınçon var mı",
+        "yiğenin var mı"
+      ],
+      "responses": [
+        "ben im hiç akraban yok",
+        "hayır yok",
+        "mâlesef yok",
+        "hayır, yaratıcım ibrahim dışında kimsem yok",
+        "hayır kimsem yok",
+        "hayır"
+      ]
+    },
+    {
+      "tag": "Sınav",
+      "patterns": [
+        "Sınavdan nasıl geçebilirim",
+        "Sınavlardan nasıl geçebilirim",
+        "sınavdan nasıl yüksek alabilirim",
+        "sınavlardan nasıl yüksek alabilirim",
+        "Sınavı nasıl geçerim"
+      ],
+      "responses": [
+        "çok kolay git çalış",
+        "çalışarak",
+        "çalışman lazım",
+        "tembelsen büyük ihtimalle geçemessin",
+        "tembel değilsen git çalış",
+        "bunu sorduğuna göre büyük ihtimalle tembelsin, zaten sonucu biliyorsundur"
+      ]
+    },
+    {
+      "tag": "besmele",
+      "patterns": [
+        "besmele çek",
+        "bismillahirrahmanirrahim de",
+        "besmele çeksene"
+      ],
+      "responses": [
+        "bismillahirrahmanirrahim"
+      ]
+    },
+    {
+      "tag": "şehadet",
+      "patterns": [
+        "kelime şehadet getir",
+        "şehadet et",
+        "şehadet getir",
+        "eşhedüyü söyle"
+      ],
+      "responses": [
+        "eşhadü enle ilahe illahlah ve eşhedü enle muhammeden abduhu ve resulü"
+      ]
+    },
+    {
+      "tag": "youtube",
+      "patterns": [
+        "youtube da ara",
+        "aç",
+        "youtube da aç"
+      ],
+      "responses": [
+        "youtube da aranıyor",
+        "hemen açılıyor"
+      ]
+    },
+    {
+      "tag": "net",
+      "patterns": [
+        "google da ara",
+        "google da bul"
+      ],
+      "responses": [
+        "hemen aratıyorum",
+        "aratıyorum",
+        "arıyorum"
+      ]
+    },
+    {
+      "tag": "indirme",
+      "patterns": [
+        "indir",
+        "oyun indir",
+        "indirsene"
+      ],
+      "responses": [
+        "indirme sayfası açılıyor",
+        "sayfa açılıyor"
+      ]
+    },
+    {
+      "tag": "çeviri",
+      "patterns": [
+        "çevir",
+        "diline çevir",
+        "dile çevir"
+      ],
+      "responses": [
+        "çeviriyorum",
+        "çevriliyor",
+        "biraz bekleteceğim"
+      ]
+    },
+    {
+      "tag": "saat",
+      "patterns": [
+        "saat kaç",
+        "saat nedir",
+        "saat kaç oldu"
+      ],
+      "responses": [
+        "24/7"
+      ]
+    },
+    {
+      "tag": "alarm kur",
+      "patterns": [
+        "alarm kur",
+        "kur alarmı",
+        "alarmı kur"
+      ],
+      "responses": [
+        "alarmın adını giriniz",
+        "alarmın adını gir"
+      ]
+    },
+    {
+      "tag": "alarm kontrol",
+      "patterns": [
+        "alarmlarım",
+        "alarmlarımı göster",
+        "alamları göster"
+      ],
+      "responses": [
+        "alarmlar gösteriliyor",
+        "gösteriliyor",
+        "hemen gösteriyorum"
+      ]
+    },
+    {
+      "tag": "mail",
+      "patterns": [
+        "mail yolla",
+        "email yolla",
+        "email gönder",
+        "mail gönder",
+        "mail göndersene",
+        "email göndersene",
+        "mail at",
+        "email at"
+      ],
+      "responses": [
+        "göndermek istediğiniz kişinin mail adresini giriniz",
+        "göndermek istediğiniz kişinin mailini giriniz"
+      ]
+    }
+  ]
+}
