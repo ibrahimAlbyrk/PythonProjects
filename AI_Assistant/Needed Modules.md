@@ -1,4 +1,4 @@
-** Modules
+**Modules**
 
 - webbrowser
 - googletrans
@@ -14,7 +14,7 @@
 - email
 - win10toast
 
-** how to install?
+**how to install?**
    - open cmd
       - pip install webbrowser
       - pip install googletrans
