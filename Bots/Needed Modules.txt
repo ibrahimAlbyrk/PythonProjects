@@ -1,9 +1,0 @@
--pyautogui
--selenium
--time
-
-how install?
-   - open cmd
-      - pip install pyautogui
-      - pip install selenium
-      - time module already exists
