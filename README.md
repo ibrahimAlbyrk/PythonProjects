@@ -49,7 +49,7 @@
       - pip install email
       - pip install win10toast
       - MessageBox module already exists
-      - tkinder module may already exist
+      - tkinder module already exists
       - pip install pyautogui
       - pip install selenium
       - time module already exists
